@@ -50,10 +50,12 @@ namespace JeopardyTimer
 
         }
 
-        private static Color selectedColor = Color.Black;
+        private static Color selectedColor = Color.White;
+        private static Color nonSelectedColor = Color.White;
+
         private static Color selectedBGColor = Color.BlueViolet;
         private static Color nonSelectedBGColor = Color.Blue;
-        private static Color nonSelectedColor = Color.Black;
+        
         public void updateText()
         {
             this.TopMost = true;

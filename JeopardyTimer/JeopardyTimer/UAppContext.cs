@@ -9,13 +9,10 @@ namespace JeopardyTimer
 {
     public class UAppContext : ApplicationContext
     {
-        private int formCount;
-
 
 
         public UAppContext()
         {
-            formCount = 0;
 
             // Handle the ApplicationExit event to know when the application is exiting.
             Application.ApplicationExit += new EventHandler(this.OnApplicationExit);

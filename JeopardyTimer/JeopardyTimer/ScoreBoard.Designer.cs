@@ -83,6 +83,7 @@
             this.player1Score.BackColor = System.Drawing.Color.Blue;
             this.player1Score.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.player1Score.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.player1Score.ForeColor = System.Drawing.Color.White;
             this.player1Score.Location = new System.Drawing.Point(151, 1);
             this.player1Score.Name = "player1Score";
             this.player1Score.Size = new System.Drawing.Size(78, 31);
@@ -94,6 +95,7 @@
             this.player2Score.BackColor = System.Drawing.Color.Blue;
             this.player2Score.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.player2Score.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.player2Score.ForeColor = System.Drawing.Color.White;
             this.player2Score.Location = new System.Drawing.Point(362, 1);
             this.player2Score.Name = "player2Score";
             this.player2Score.Size = new System.Drawing.Size(82, 31);
@@ -105,6 +107,7 @@
             this.player3Score.BackColor = System.Drawing.Color.Blue;
             this.player3Score.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.player3Score.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.player3Score.ForeColor = System.Drawing.Color.White;
             this.player3Score.Location = new System.Drawing.Point(577, 1);
             this.player3Score.Name = "player3Score";
             this.player3Score.Size = new System.Drawing.Size(68, 31);
@@ -116,6 +119,7 @@
             this.player4Score.BackColor = System.Drawing.Color.Blue;
             this.player4Score.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.player4Score.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.player4Score.ForeColor = System.Drawing.Color.White;
             this.player4Score.Location = new System.Drawing.Point(778, 1);
             this.player4Score.Name = "player4Score";
             this.player4Score.Size = new System.Drawing.Size(80, 31);

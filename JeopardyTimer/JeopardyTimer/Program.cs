@@ -91,6 +91,7 @@ namespace JeopardyTimer
                     case Keys.D7:
                     case Keys.D8:
                     case Keys.D9:
+                    case Keys.D0:
                         //Console.WriteLine("keystate." + (GetKeyState(VK_LCONTROL) == (short) -127));
                         if (scoreBoard.ShouldUpdateText())
                         {
@@ -104,7 +105,17 @@ namespace JeopardyTimer
                             }
                             else
                             {
-                                playerPoints[playerNumber] += 100 * (((int)(key) - (int)Keys.D1) + 1);
+                                
+                                int pointNum = key != Keys.D0 ? (((int)(key) - (int)Keys.D1) + 1) : 10;
+                                if (pointNum <= 5)
+                                {
+                                    playerPoints[playerNumber] += 100 * pointNum;
+                                }
+                                else
+                                {
+                                    pointNum -= 11;
+                                    playerPoints[playerNumber] += 100 * pointNum;
+                                }
                                 playerNumber = -1;
                             }
                         }
